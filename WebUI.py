@@ -37,4 +37,4 @@ if __name__ == "__main__":
                 st.error("Please enter a valid URL!")
             else:
                 st.write("Shortened URL")
-                st.success("http://localhost:8501/?key=" + obj.shorten_url(url))
+                st.success("https://kb-url.streamlit.app/?key=" + obj.shorten_url(url))
