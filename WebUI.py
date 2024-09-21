@@ -14,6 +14,11 @@ def is_url(url):
 if __name__ == "__main__":
     obj = URLShortener()
 
+    st.set_page_config(
+        page_icon=":desktop_computer:",
+        page_title="URL Shortener",
+    )
+
     query_params = st.query_params
     if "key" in query_params.keys():
         url = obj.give_url_from_key(query_params["key"])
