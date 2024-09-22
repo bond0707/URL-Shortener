@@ -1,6 +1,5 @@
 import random
 import string
-import streamlit as st
 
 class URLShortener():
     url_dict = {}
