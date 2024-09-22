@@ -1,6 +1,6 @@
-## URL Shortener
+# URL Shortener
 
-This is a simple implementation of a URL Shortener using a HashMap. It's made using `python3` and deployed [here ](https://kb-url.streamlit.app/ "URL Shortener")on streamlit cloud.
+This is a simple implementation of a URL Shortener using a HashMap. It's made using `python3` and deployed on streamlit cloud [here](https://kb-url.streamlit.app/ "URL Shortener").
 
 ## Installation Guide
 
